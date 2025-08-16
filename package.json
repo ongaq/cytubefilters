@@ -15,5 +15,8 @@
   },
   "scripts": {
     "test": "mocha"
+  },
+  "volta": {
+    "node": "22.18.0"
   }
 }

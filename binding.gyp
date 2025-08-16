@@ -11,7 +11,8 @@
             "dependencies": [
                 "deps/libpcre/libpcre.gyp:libpcre"
             ],
-            "include_dirs": ["<!(node -e \"require('nan')\")", "/usr/include", "deps/libpcre"]
+            "include_dirs": ["node_modules/nan", "deps/libpcre"],
+            "defines": ["PCRE_STATIC"]
         }
     ]
 }
