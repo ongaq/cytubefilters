@@ -47,6 +47,9 @@
                 }],
                 [ "OS=='solaris'", {
                     "include_dirs": ["solaris"]
+                }],
+                [ "OS=='win'", {
+                    "include_dirs": ["win32"]
                 }]
             ]
         }

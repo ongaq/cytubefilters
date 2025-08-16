@@ -8,12 +8,15 @@
   },
   "gypfile": true,
   "dependencies": {
-    "nan": "^2.14.0"
+    "nan": "^2.23.0"
   },
   "devDependencies": {
-    "mocha": "^8.2.0"
+    "mocha": "^11.7.1"
   },
   "scripts": {
     "test": "mocha"
+  },
+  "volta": {
+    "node": "22.18.0"
   }
 }
